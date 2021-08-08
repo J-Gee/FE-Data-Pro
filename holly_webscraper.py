@@ -22,8 +22,8 @@ def holly_complete_check(expNum):
     br.set_cookiejar(cj)
     br.open("http://138.253.226.89/RobotRun")
     br.select_form(nr=0)
-    br.form['UserName'] = 'livad\mif015'
-    br.form['Password'] = 'emsfl0w1'
+    br.form['UserName'] = 
+    br.form['Password'] = 
     br.form['CompanyId'] = ["1",] #1 labman, 2 UoL, 3 Unilever
     br.submit()
 
